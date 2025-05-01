@@ -1,54 +1,40 @@
-# React + TypeScript + Vite
+# C.O.L.O.R. for HAL
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 企画概要
+HAL大阪内で利用できるソーシャルサービス
+参加時にOHSアカウントを登録することで氏名、クラスなどを登録する手間を削減するとともに、セキュリティを強化
 
-Currently, two official plugins are available:
+Discord連携し、サービス内ですぐにフレンド申請を送れるようにすることで、コミュニティの発生を促進
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+性別を新解釈で表現することで、話題の種を作る
+性自認をより視覚的・直感的に表現することで性多様性の美しさに触れる
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 達成目標
+・Microsoftアカウントを利用したソーシャルサービス
+・氏名と学科を個人情報として保持したアカウントを作成する
+・サービス開始時、性自認を含む三つの質問に対してポジショニングマップをする
+・性自認を二軸（男性的・女性的）のポジショニングマップで表現
+・自身の座標点に自認する性のイメージ色を配置する
+・それぞれの色が混ざり合った一枚のグラデーションマップを作成する
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+## メンバ別ロール
+淺輪
+　アイデアだし
+　発表資料作成
+益田
+　アイデアだし
+　発表資料の素材作成
+鵜川
+　アイデアだし
+　WEB・Unityの連携
+二貝
+　アイデアだし
+　環境構築
+池内
+　アイデアだし
+　シェーディング
+神保
+　アイデアだし
+　バックエンド全般
